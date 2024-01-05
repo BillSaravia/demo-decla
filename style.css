@@ -39,3 +39,10 @@ body {
 .container .buttons>#btnno {
     margin-left: 70px;
 }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Adjust this value for separation */
+}
