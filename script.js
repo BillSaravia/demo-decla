@@ -25,7 +25,7 @@ btnno.addEventListener('mouseenter', () => {
 btnyes.addEventListener('click', () => {
     // Send WhatsApp message
     var phoneNumber = '51926615108'; // Replace with the recipient's phone number
-    var message = encodeURIComponent('Hola, ¿quieres ser mi novia?'); // Replace with your message
+    var message = encodeURIComponent('Hola, acepto ser tu novia'); // Replace with your message
     var whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
 
     // Open WhatsApp link in a new tab
